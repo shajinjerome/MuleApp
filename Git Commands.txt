@@ -44,3 +44,23 @@ sjerome@USLMASJEROME1 MINGW64 /c/DEL/2. Mule Training/sourcecode/TestMuleApp (No
 $ git status
 On branch NovRelease
 nothing to commit, working tree clean
+
+$ git pull origin NovRelease
+fatal: Couldn't find remote ref NovRelease
+
+sjerome@USLMASJEROME1 MINGW64 /c/DEL/2. Mule Training/sourcecode/TestMuleApp (NovRelease)
+$ git push origin NovRelease
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 458 bytes | 458.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'NovRelease' on GitHub by visiting:
+remote:      https://github.com/shajinjerome/TestMuleApp/pull/new/NovRelease
+remote:
+To https://github.com/shajinjerome/TestMuleApp.git
+ * [new branch]      NovRelease -> NovRelease
+
