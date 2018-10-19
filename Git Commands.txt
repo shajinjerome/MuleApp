@@ -14,3 +14,25 @@ $ git add *
 
 sjerome@USLMASJEROME1 MINGW64 /c/DEL/2. Mule Training/sourcecode/TestMuleApp (master)
 $ git add Commands.txt
+
+$ git commit -m"My first Commit"
+[master 61c0a43] My first Commit
+ 1 file changed, 16 insertions(+)
+ create mode 100644 Git Commands.txt
+
+ $ git pull origin master
+From https://github.com/shajinjerome/TestMuleApp
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 581 bytes | 290.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/shajinjerome/TestMuleApp.git
+   bf89984..61c0a43  master -> master
+   
+   Test 
