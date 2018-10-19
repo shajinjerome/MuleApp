@@ -35,4 +35,12 @@ Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/shajinjerome/TestMuleApp.git
    bf89984..61c0a43  master -> master
    
-   Test 
+
+sjerome@USLMASJEROME1 MINGW64 /c/DEL/2. Mule Training/sourcecode/TestMuleApp (master)
+$ git checkout -b NovRelease
+Switched to a new branch 'NovRelease'
+
+sjerome@USLMASJEROME1 MINGW64 /c/DEL/2. Mule Training/sourcecode/TestMuleApp (NovRelease)
+$ git status
+On branch NovRelease
+nothing to commit, working tree clean
